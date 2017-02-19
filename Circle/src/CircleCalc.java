@@ -34,7 +34,7 @@ public class CircleCalc {
             }
         }
         
-        System.out.println("Вы ввели " + r);
+        System.out.println("You entered:  " + r);
 		return r;
 	}
 
@@ -44,7 +44,7 @@ public class CircleCalc {
 		double S = 0;
 
 		S = Math.PI * Math.pow(r, 2);
-		System.out.println("Площадь круга: " + S);
+		System.out.println("Area of a circle: " + S);
 
 	}
 
@@ -53,7 +53,7 @@ public class CircleCalc {
 		double L = 0;
 
 		L = 2 * Math.PI * r;
-		System.out.println("Длина окружности: " + L);
+		System.out.println("Circumference: " + L);
 
 	}
 

@@ -24,7 +24,7 @@ public class Multiply {
 		}
 		;
 
-		System.out.println("Ïðîèçâåäåíèå öèôð: " + result);
+		System.out.println("ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ñ†Ð¸Ñ„Ñ€: " + result);
 
 	}
 
@@ -32,7 +32,7 @@ public class Multiply {
 		int num = 0;
 		boolean isInputOK = false;
 
-		System.out.print("Ââåäèòå öåëîå ÷åòûðåõçíà÷íîå ÷èñëî ÷èñëî: ");
+		System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑ…Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ñ‡Ð¸ÑÐ»Ð¾: ");
 
 		while (!isInputOK) {
 			if (scanner.hasNextInt()) {
@@ -41,15 +41,15 @@ public class Multiply {
 				if (abs > 999 && abs < 10000) {
 					isInputOK = true;
 				} else {
-					System.out.println("×åòûðåõçíà÷íîå.... ");
+					System.out.println("Ð§ÐµÑ‚Ñ‹Ñ€ÐµÑ…Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ.... ");
 
 				}
 			} else {
-				System.out.println("Ââåäèòå êîððåêòíîå çíà÷åíèå!! ");
+				System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾!! ");
 				scanner.next();
 			}
 		}
-		System.out.println("Âû ââåëè " + num);
+		System.out.println("Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ " + num);
 
 		return num;
 	}
